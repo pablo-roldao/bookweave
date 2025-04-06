@@ -1,7 +1,7 @@
 package br.com.bookweave.api.controller;
 
 import br.com.bookweave.api.domain.user.User;
-import br.com.bookweave.api.domain.user.UserRepository;
+import br.com.bookweave.api.domain.user.infrastructure.UserRepository;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;

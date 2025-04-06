@@ -1,0 +1,60 @@
+INSERT INTO user_book_reviews (user_id, book_isbn, rating, comment) VALUES
+(1, '978-0-100000-00-1', 4, 'Interesting premise and strong characters.'),
+(1, '978-0-100000-00-2', 5, 'Loved every chapter!'),
+(1, '978-0-100000-00-3', 3, 'A bit slow, but worth it.'),
+(1, '978-0-100000-00-4', 4, 'Well written and engaging.'),
+(1, '978-0-100000-00-5', 2, 'Not my cup of tea.'),
+
+(2, '978-0-100000-00-6', 5, 'Absolutely amazing!'),
+(2, '978-0-100000-00-7', 4, 'Enjoyed the plot twists.'),
+(2, '978-0-100000-00-8', 3, 'Decent but forgettable.'),
+(2, '978-0-100000-00-9', 5, 'Couldn’t put it down.'),
+(2, '978-0-100000-00-10', 4, 'Emotional and powerful.'),
+
+(3, '978-0-100000-00-11', 5, 'Incredible journey.'),
+(3, '978-0-100000-00-12', 3, 'Felt repetitive at times.'),
+(3, '978-0-100000-00-13', 4, 'Good world building.'),
+(3, '978-0-100000-00-14', 2, 'Struggled to finish it.'),
+(3, '978-0-100000-00-15', 4, 'Would read again.'),
+
+(4, '978-0-100000-00-16', 3, 'Started strong, lost momentum.'),
+(4, '978-0-100000-00-17', 5, 'Beautifully written.'),
+(4, '978-0-100000-00-18', 4, 'Solid read overall.'),
+(4, '978-0-100000-00-19', 2, 'Didn’t enjoy the pacing.'),
+(4, '978-0-100000-00-20', 5, 'Outstanding storytelling.'),
+
+(5, '978-0-100000-00-21', 4, 'Very imaginative.'),
+(5, '978-0-100000-00-22', 5, 'Truly a masterpiece.'),
+(5, '978-0-100000-00-23', 3, 'Okay but not memorable.'),
+(5, '978-0-100000-00-24', 4, 'Great for fans of the genre.'),
+(5, '978-0-100000-00-25', 2, 'Could have been shorter.'),
+
+(6, '978-0-100000-00-26', 5, 'Every page was worth it.'),
+(6, '978-0-100000-00-27', 3, 'Some parts dragged on.'),
+(6, '978-0-100000-00-28', 4, 'Good pacing and flow.'),
+(6, '978-0-100000-00-29', 5, 'Phenomenal characters.'),
+(6, '978-0-100000-00-30', 3, 'Average experience.'),
+
+(7, '978-0-100000-00-31', 4, 'Unexpectedly good.'),
+(7, '978-0-100000-00-32', 4, 'Enjoyable and fast-paced.'),
+(7, '978-0-100000-00-33', 2, 'Not engaging enough.'),
+(7, '978-0-100000-00-34', 5, 'Couldn’t stop reading!'),
+(7, '978-0-100000-00-35', 3, 'Mixed feelings.'),
+
+(8, '978-0-100000-00-36', 5, 'Inspiring story.'),
+(8, '978-0-100000-00-37', 4, 'Very creative.'),
+(8, '978-0-100000-00-38', 2, 'Expected more.'),
+(8, '978-0-100000-00-39', 3, 'Decent plot.'),
+(8, '978-0-100000-00-40', 5, 'One of the best I’ve read.'),
+
+(9, '978-0-100000-00-41', 4, 'Unique perspective.'),
+(9, '978-0-100000-00-42', 5, 'Beautiful and touching.'),
+(9, '978-0-100000-00-43', 3, 'Nice but predictable.'),
+(9, '978-0-100000-00-44', 2, 'Too slow for my taste.'),
+(9, '978-0-100000-00-45', 4, 'Had fun reading this.'),
+
+(10, '978-0-100000-00-46', 5, 'Could read it again.'),
+(10, '978-0-100000-00-47', 4, 'Fresh and well-paced.'),
+(10, '978-0-100000-00-48', 3, 'Not bad.'),
+(10, '978-0-100000-00-49', 2, 'Didn’t click with me.'),
+(10, '978-0-100000-00-50', 5, 'Loved every moment!');
