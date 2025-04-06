@@ -1,0 +1,22 @@
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: bookweave-mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: X1624TMGMMySQLPablo$
+      MYSQL_DATABASE: bookweave
+      MYSQL_USER: pabloroldao
+      MYSQL_PASSWORD: X1624TMGMMySQLPablo$
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+    networks:
+      - bookweave-net
+
+volumes:
+  mysql_data:
+
+networks:
+  bookweave-net:
