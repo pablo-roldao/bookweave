@@ -15,6 +15,22 @@ services:
     networks:
       - bookweave-net
 
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: bookweave-app
+    ports:
+      - "8080:8080"
+    depends_on:
+      - mysql
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://mysql:3306/bookweave
+      SPRING_DATASOURCE_USERNAME: pabloroldao
+      SPRING_DATASOURCE_PASSWORD: X1624TMGMMySQLPablo$
+    networks:
+      - bookweave-net
+
 volumes:
   mysql_data:
 
